@@ -11,7 +11,7 @@ body {
 
 .header-div {
     background-color: rgba(44, 39, 39, 0.557);
-    height: 8vh;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
