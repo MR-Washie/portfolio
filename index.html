@@ -4,35 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Ragib</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header-div">
-        <div><a id="name" href="">Mohammad Ragib</a></div>
-
-        <div class="list-div">
-            <ul class="unoredered-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="project.html">Project</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </div>
-
-    </div>
-
-
-        <div class="main-div">
-            <div><img src="logo.jpg" alt="logo"></div>
-            
-            <div>
-                <h1>My<br>Portfolio</h1>
-                <p>Hi... My name is Mohammad Ragib from India and pursue B.tech+M.tech from Nit Patna with CSE-DD-CS Branch(2024-2029). I'm doing web development and focuse on full stack development and also continue DSA with C++.</p>
-                <div id="btn"><a href="Resume F.pdf" target="_blank">Download CV</a></div>
+    <header>
+        <nav>
+            <div class="logo">Ragib</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
             </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div><img src="logo.jpg" alt=""></div>
+            <h1>Hi, I'm Mohammad Ragib</h1>
+            <p>Frontend Developer passionate about creating beautiful and functional web experiences</p>
+            <button class="cta-btn">View My Work</button>
         </div>
+    </section>
 
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1  -->
+            <div class="project-card" id="age-calculator">
+                <!-- <img src="https://source.unsplash.com/random/800x600" alt="Project 1" class="project-img"> -->
+                <div class="project-info">
+                    <h3 class="project-title">Age Calculator</h3>
+                    <p>Using tools HTML , CSS and JavaScript.</p>
+                </div>
+            </div>
+            <!-- Project 2  -->
+            <div class="project-card" id="to-do-list">
+                <!-- <img src="https://source.unsplash.com/random/800x600" alt="Project 2" class="project-img"> -->
+                <div class="project-info">
+                    <h3 class="project-title">To Do list</h3>
+                    <p>Using tools HTML , CSS and JavaScript.</p>
+                </div>
+                </div>
+            <!-- Project 3  -->
+            <div class="project-card" id="random-image-generator">
+                <!-- <img src="https://source.unsplash.com/random/800x600" alt="Project 3" class="project-img"> -->
+                <div class="project-info">
+                    <h3 class="project-title">Random Image Generator</h3>
+                    <p>Using tools HTML , CSS and JavaScript.</p>
+                </div>
+            </div>
+            <!-- Project 4  -->
+            <div class="project-card" id="analog-clock">
+                <!-- <img src="https://source.unsplash.com/random/800x600" alt="Project 4" class="project-img"> -->
+                <div class="project-info">
+                    <h3 class="project-title">analog-clock</h3>
+                    <p>Using tools HTML , CSS and JavaScript.</p>
+                </div>
+            </div>
+            <!-- Project 5  -->
+            <div class="project-card" id="E-commerce">
+                <!-- <img src="https://source.unsplash.com/random/800x600" alt="Project 5" class="project-img"> -->
+                <div class="project-info">
+                    <h3 class="project-title">E Commerce Website</h3>
+                    <p>Using tools HTML and CSS.</p>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
         
+    </section>
 
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React</div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/MR-Washie"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mohammad-ragib-281064311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/mr__washie/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    
+
+
+    <script src="script.js"></script>
 </body>
 </html>
