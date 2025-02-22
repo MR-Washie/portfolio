@@ -42,8 +42,8 @@ Ecommerce.addEventListener("click", () => {
     open("https://mr-washie.github.io/E-commerce-website-SR-Market/")
 });
 
-const weather = document.querySelector("#weather");
-weather.addEventListener("click", () => {
+const weatherEle = document.querySelector("#weather");
+weatherEle.addEventListener("click", () => {
     open("https://mr-washie.github.io/Weather/")
 });    
     
