@@ -83,6 +83,7 @@ nav {
     font-size: 1.1rem;
     cursor: pointer;
     transition: background 0.3s;
+    text-decoration: none;
 }
 
 .cta-btn:hover {
