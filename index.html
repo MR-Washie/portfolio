@@ -23,11 +23,14 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <div><img src="logo.jpg" alt=""></div>
-            <h1>Hi, I'm Mohammad Ragib</h1>
-            <p>Frontend Developer passionate about creating beautiful and functional web experiences</p>
-<!--             <button class="cta-btn">View My Work</button> -->
-            <a href="#projects" class="cta-btn">View My Work</a>
+            <div class="image-container"><img src="logo.jpg" alt=""></div>
+            <div>
+                <h1>Hi, I'm Mohammad Ragib</h1>
+                <p>Frontend Developer passionate about creating beautiful and functional web experiences</p>
+                <!-- <button class="cta-btn">View My Work</button> -->
+                <a href="#projects" class="cta-btn">View My Work</a>
+            </div>
+            
         </div>
     </section>
 
@@ -70,14 +73,7 @@
             <div class="project-card" id="E-commerce">
                 <!-- <img src="https://source.unsplash.com/random/800x600" alt="Project 5" class="project-img"> -->
                 <div class="project-info">
-                    <h3 class="project-title">E Commerce Website</h3>
-                    <p>Using tools HTML and CSS.</p>
-                </div>
-            </div>
-           <!--  Project 6 -->
-            <div class="project-card" id="weather">
-                <div class="project-info">
-                    <h3 class="project-title">Weather App</h3>
+                    <h3 class="project-title">HackSlach Induction Clone</h3>
                     <p>Using tools HTML, CSS and JavaScript.</p>
                 </div>
             </div>
@@ -98,16 +94,19 @@
 
     <section id="contact" class="contact">
         <h2 class="section-title">Get In Touch</h2>
-        <form class="contact-form">
-            <div class="form-group">
-                <input type="text" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-                <input type="email" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-                <textarea rows="5" placeholder="Your Message" required></textarea>
-            </div>
+        
+        <form action="https://api.web3forms.com/submit"  method="POST" class="contact-form">
+
+                <input type="hidden" name="access_key" value="81d69057-1f97-4efb-8bc0-713c031cd309" id="">
+            
+                <input type="text" name="name" placeholder="Your Name" required>
+            
+            
+                <input type="email" name="email" placeholder="Your Email" required>
+            
+            
+                <textarea type="text" name="message" rows="5" placeholder="Your Message" required></textarea>
+            
             <button type="submit" class="cta-btn">Send Message</button>
         </form>
     </section>
@@ -118,7 +117,7 @@
             <a href="https://www.linkedin.com/in/mohammad-ragib-281064311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
             <a href="https://www.instagram.com/mr__washie/"><i class="fab fa-instagram"></i></a>
         </div>
-        <p>&copy; 2023 Mohammad Ragib. All rights reserved.</p>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
     </footer>
 
     
