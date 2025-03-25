@@ -8,12 +8,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form submission
-document.querySelector('.contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Thank you for your message! I will get back to you soon.');
-    this.reset();
-});
+
+
 
 
 
@@ -39,11 +35,8 @@ analogClock.addEventListener("click", () => {
 
 const Ecommerce = document.querySelector("#E-commerce");
 Ecommerce.addEventListener("click", () => {
-    open("https://mr-washie.github.io/E-commerce-website-SR-Market/")
+    open("https://mr-washie.github.io/HackSlash-clone/")
 });
 
-const weatherEle = document.querySelector("#weather");
-weatherEle.addEventListener("click", () => {
-    open("https://mr-washie.github.io/Weather/")
-});    
-    
+
+
