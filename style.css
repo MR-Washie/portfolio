@@ -59,7 +59,9 @@ nav {
 }
 
 .hero-content {
-    max-width: 600px;
+    /* max-width: 600px; */
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero h1 {
@@ -168,16 +170,13 @@ nav {
     margin: 0 auto;
 }
 
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
 input, textarea {
     width: 100%;
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Footer */
@@ -204,6 +203,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        margin-top: 4rem;
+        text-align: center;
+    }
+
     .hero h1 {
         font-size: 2.5rem;
     }
@@ -215,7 +220,7 @@ footer {
 
 
 img {
-    position: absolute;
-    width: 20%;
-    right: 6.5%;
+    /* position: absolute; */
+    width: 50%;
+    /* right: 6.5%; */
 }
