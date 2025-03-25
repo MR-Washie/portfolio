@@ -95,19 +95,19 @@
     <section id="contact" class="contact">
         <h2 class="section-title">Get In Touch</h2>
         
-        <form action="https://api.web3forms.com/submit"  method="POST" class="contact-form">
+        <form method="POST" class="contact-form" id="form">
 
-                <input type="hidden" name="access_key" value="81d69057-1f97-4efb-8bc0-713c031cd309" id="">
+                <input type="hidden" name="access_key" value="81d69057-1f97-4efb-8bc0-713c031cd309">
             
                 <input type="text" name="name" placeholder="Your Name" required>
-            
-            
                 <input type="email" name="email" placeholder="Your Email" required>
-            
-            
                 <textarea type="text" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             
             <button type="submit" class="cta-btn">Send Message</button>
+            <div id="result"></div>
+
         </form>
     </section>
 
